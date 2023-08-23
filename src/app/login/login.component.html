@@ -1,0 +1,16 @@
+<div class="bg-container">
+    <form (submit)="onSubmit()">
+        <div class="my-form">
+      <div>
+        <label for="userId" style="margin-left: 15px">User ID</label>
+        <input type="text" id="userId" [(ngModel)]="userId" name="userId" required style="margin-bottom: 20px;margin-left: 5px" >
+      </div>
+      <div>
+        <label for="password" >Password:</label>
+        <input type="password" id="password" [(ngModel)]="password" name="password" required style="margin-bottom: 20px;margin-left: 5px" >
+      </div>
+      <button class="button" style="margin-left: 70px;"  type="submit">Submit</button>
+      </div>
+    </form>
+    </div>
+

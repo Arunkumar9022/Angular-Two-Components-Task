@@ -1,0 +1,24 @@
+.bg-container
+{
+    background-image: linear-gradient(to right, #4ffe8c 0%, #00f2fe 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px 30px;
+}
+.my-form
+{
+    border:2px solid rgb(26, 36, 37);
+    padding:70px 90px;
+    box-shadow: 5px 5px 5px 10px #666666;
+}
+.button
+{
+    padding:10px 40px;
+    background-color: burlywood;
+    border-radius: 20px;
+    text-align: center;
+
+}
